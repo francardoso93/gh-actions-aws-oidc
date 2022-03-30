@@ -1,2 +1,2 @@
-terraform apply -var profile="ipfs-automation" -var region="us-west-2"  -var role_name="elastic-provider-gh-actions"
--var org_repo_allow_list=["repo:web3-storage/ipfs-elastic-provider-infrastructure:*"]
+terraform apply -var profile=<aws_profifile> -var region=<aws_region>  -var role_name=<role_naame>
+-var org_repo_allow_list=["repo:<org>/<repo>:*"]
